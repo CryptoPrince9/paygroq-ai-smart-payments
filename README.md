@@ -1,4 +1,4 @@
-# MaInsane: Autonomous AI Chief Marketing Officer (CMO)
+# PayGroq: Autonomous AI Chief Marketing Officer (CMO)
 *Production Enterprise System Architecture*
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.2.9-black.svg?style=flat&logo=next.js)](https://nextjs.org/)
@@ -9,7 +9,7 @@
 ---
 
 ## Executive Overview
-**MaInsane** is an open-source, fully autonomous AI Chief Marketing Officer (CMO) engineered to replace bloated marketing agencies and exceed the capabilities of platforms like **Explee** (automated GTM B2B outreach) and **Okara.ai** (real-time CMO dashboard, agent feed, and competitor intelligence radar).
+**PayGroq** is an open-source, fully autonomous AI Chief Marketing Officer (CMO) engineered to replace bloated marketing agencies and exceed the capabilities of platforms like **Explee** (automated GTM B2B outreach) and **Okara.ai** (real-time CMO dashboard, agent feed, and competitor intelligence radar).
 
 ### Core Differentiators
 - **Zero Mock Data Policy:** Every query connects to real live inference (Google Gemini 2.5 Flash API with Strata local MoE fallback).
@@ -21,7 +21,7 @@
 ---
 
 ## Pricing Model & Unit Economics
-The smart contract (`MaInsaneBilling.sol`) and backend verification gate enforce the following monetization logic:
+The smart contract (`PayGroqBilling.sol`) and backend verification gate enforce the following monetization logic:
 
 | Service Tier / Action | Price (USD) | Crypto Equivalent (approx) | Description |
 | :--- | :--- | :--- | :--- |
@@ -55,7 +55,7 @@ The smart contract (`MaInsaneBilling.sol`) and backend verification gate enforce
 
 ```bash
 # 1. Clone & Enter Project
-cd C:\Users\aakwa\.gemini\antigravity\scratch\mainsane
+cd C:\Users\aakwa\.gemini\antigravity\scratch\PayGroq
 
 # 2. Install Dependencies
 npm install
