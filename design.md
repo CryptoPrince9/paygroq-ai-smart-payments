@@ -35,7 +35,7 @@ MaInsane is designed for ultra-high reliability, autonomous task execution, and 
 ---
 
 ## 2. Zero Mock Data Policy Enforcement
-1. **Live Model Execution:** All agent reasoning calls Google Gemini API (`AIzaSyBX7rP4SlLvXlwPogNbZrI97xFoeuH7Cig`) or local Ollama Qwen MoE (`http://127.0.0.1:11434`). No dummy responses.
+1. **Live Model Execution:** All agent reasoning calls Google Gemini API (`AIzaSy***`) or local Ollama Qwen MoE (`http://127.0.0.1:11434`). No dummy responses.
 2. **Live On-Chain Cryptographic Verification:** Billing requires real blockchain transactions verified via Polygon / Ethereum JSON-RPC nodes against the hardcoded recipient wallet:
    `0x32C2c16b8821dE40F1d71FB67b050542F87f58F8`.
 3. **Live Datawrapper Visualization:** Interactive charts are compiled and rendered using live datasets and embed endpoints.

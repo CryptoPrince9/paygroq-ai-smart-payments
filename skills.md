@@ -26,7 +26,7 @@ MaInsane integrates cutting-edge open-source agent infrastructure, high-throughp
   - Interface: Exposes standard OpenAI-compatible endpoints (`/v1/chat/completions`, `/v1/models`).
 - **Hybrid Vercel Adaptation:**
   - When deployed on Vercel Serverless, MaInsane utilizes an adaptive tiered model router:
-    1. **Primary Tier:** High-throughput Google Gemini 2.5 Flash / 1.5 Pro via direct API (`AIzaSyBX7rP4SlLvXlwPogNbZrI97xFoeuH7Cig`).
+    1. **Primary Tier:** High-throughput Google Gemini 2.5 Flash / 1.5 Pro via direct API (`AIzaSy***`).
     2. **Local Workstation / Sovereign Node Tier:** Strata / Ollama local MoE endpoint (`http://127.0.0.1:11434` / `http://127.0.0.1:8000/v1`) for zero-cost offline execution.
     3. **Automated Fallback:** Seamless circuit-breaker failover if local inference is unreachable.
 
